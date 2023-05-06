@@ -1,0 +1,7 @@
+#!/bin/bash
+query=$1
+if [ -z "$1" ]; then
+    echo Showing query box
+    query=$(rofi -p 'Enter search string' -dmenu)
+fi
+xdg-open $(locate $query | rofi -p "Choose a file" -dmenu)
