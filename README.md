@@ -18,7 +18,7 @@ If no arguments are provided, you can enter a search term in the first appearing
 
 I recommend binding *peg* to a hotkey in your window manager/desktop environment instead of running *peg* directly from a terminal.
 
-*Snippet for ![awesome wm](https://awesomewm.org/) (binds to Ctrl+Mod+p):*
+*Snippet for [awesome wm](https://awesomewm.org) (binds to Ctrl+Mod+p):*
 ```lua
 -- peg
 awful.key({ modkey, "Control" }, "p", function() awful.spawn("/usr/bin/peg") end,
