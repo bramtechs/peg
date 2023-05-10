@@ -1,7 +1,7 @@
 # peg
-Simple rofi script that fuzzy-finds files in your filesystem and opens them with xdg-open.
+Simple rofi script that fuzzy-finds files in your home directory and opens them with xdg-open.
 
-Comes with an install script that installs the required packages with apt and makes a cron-job for updatedb.
+Comes with an install script that installs the required packages.
 
 ## Installation (Debian-based only)
 ```
