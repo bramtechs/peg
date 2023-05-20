@@ -4,4 +4,4 @@ if [ -z "$1" ]; then
     echo Showing query box
     query=$(rofi -p 'Enter search string' -dmenu)
 fi
-xdg-open "$(find $HOME | grep $query | rofi -p "Choose a file" -dmenu)"
+xdg-open "$(find $HOME | grep -i $query | rofi -p "Choose a file" -dmenu -i)"
